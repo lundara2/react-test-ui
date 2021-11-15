@@ -1,0 +1,34 @@
+.input-group{
+    border-radius: 0;
+}
+
+.form-control{
+    border-radius: 0;
+    background-color: $color-primary;
+    color: $color-secondary;
+    outline: none;
+    border-color:  $color-primary !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+    font-weight: 600;
+
+    &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: $color-secondary;
+        opacity: 1; /* Firefox */
+    }
+      
+    &:-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: $color-secondary;
+    }
+      
+    &::-ms-input-placeholder { /* Microsoft Edge */
+        color: $color-secondary;
+    }
+
+    &:focus{
+        background-color: $color-primary;
+        color: $color-secondary;
+        box-shadow: 0;
+    }
+}

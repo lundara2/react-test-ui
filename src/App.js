@@ -1,11 +1,15 @@
-import React from "react";
-import "./style.css";
+import { BrowserRouter as Router } from 'react-router-dom';
+import { Header, Footer } from './Components';
+import RoutesPage from './Services/Routes';
 
 export default function App() {
   return (
-    <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
-    </div>
+    <Router>
+      <div className="container">
+        <Header />
+        <RoutesPage />
+        <Footer />
+      </div>
+    </Router>
   );
 }

@@ -1,5 +1,5 @@
-import { useState, useEffect } from 'react';
 import React from 'react';
+import { useState, useEffect } from 'react';
 
 // Images
 const Activity = 'https://lundara.com/react-test/Assets/images/activity.png';

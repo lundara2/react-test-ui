@@ -1,0 +1,88 @@
+@import '../../Assets/scss/variable.scss';
+
+.footer {
+    border-top: solid 1px $color-primary;
+    padding: 20px 0 35px;
+    @media (max-width: $ipad-screen) {
+        text-align: center;
+    }
+
+    &__widget {
+        margin-bottom: 35px;
+
+        .share {
+            display: inline-block;
+            padding: 0;
+            margin: 0;
+
+            li {
+                float: left;
+                display: block;
+
+                a {
+                    display: block;
+                    width: 35px;
+                    height: 35px;
+                    line-height: 35px;
+                    background-color: $color-primary;
+                    color: $color-secondary;
+                    margin-right: 10px;
+                    text-align: center;
+                    &:hover {
+                        background-color: $color-primary2;
+                    }
+                }
+            }
+        }
+
+
+        .menu-footer{
+            display: inline-block;
+            padding: 0;
+            margin: 0 0 -5px 0;
+    
+            @media (max-width: $mobile-screen) {
+                max-width: 300px;
+            }
+    
+            li{
+                float: left;
+                display: block;
+                position: relative;
+    
+                &::after{
+                    content: "/";
+                    position: absolute;
+                    right: -2px;
+                    top: 0;
+                }
+    
+                a{
+                    display: block;
+                    padding: 0 15px;
+                    color: $color-primary;
+                    text-decoration: none;
+    
+                    &:hover{
+                        text-decoration: underline;
+                        color: $color-primary2;
+                    }
+                }
+    
+                &:first-child{
+                    a{
+                        padding-left: 0;
+                    }
+                }
+    
+                &:last-child{
+                    &::after{
+                        display: none;
+                    }
+                }
+            }
+        }
+
+    }
+
+}

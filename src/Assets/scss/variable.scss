@@ -1,0 +1,47 @@
+
+/*
+Color
+=========================== */
+$color-title: #fff5e8;
+$color-content:#F3E3CF;
+$color-primary: #F3E3CF;
+$color-primary2: #ebd2b4;
+$body-bg: #f5f7f8;
+$color-danger: #e74c3c;
+$color-secondary: #953E46;
+$color-warning: #f1c40f;
+$color-success: #2ecc71;
+$color-info: #3498db;
+
+/*
+Break Responsive
+=========================== */
+$mobile-sm-screen: 480px;
+$mobile-screen: 767px;
+$ipad-sm-screen: 812px;
+$ipad-screen: 920px;
+
+/*
+Bootstrap Custom
+=========================== */
+$theme-colors: (
+    "primary": $color-primary,
+    "danger": $color-danger,
+    "secondary": $color-secondary,
+    "warning": $color-warning,
+    "success": $color-success,
+    "info": $color-info
+);
+
+/*
+General Extend
+=========================== */
+.animate {
+	transition: all 0.3s ease-in-out;
+}
+
+/*
+Font Family
+=========================== */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+$font-family: 'Open Sans', sans-serif;

@@ -1,0 +1,10 @@
+.row{
+    &.space{
+        margin: 0 -7.5px !important;
+
+        > .grid{
+            padding: 0 7.5px !important;
+            margin-bottom: 14.5px;
+        }
+    }
+}

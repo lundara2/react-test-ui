@@ -1,7 +1,8 @@
 import React from 'react';
 
-// import Logo from '../../Assets/images/logo.png';
-// import User from '../../Assets/images/user.png';
+const Logo = 'https://lundara.com/react-test/Assets/images/logo.png';
+const User = 'https://lundara.com/react-test/Assets/images/user.png';
+
 import './header.scss';
 
 export default function Header() {
@@ -11,7 +12,7 @@ export default function Header() {
         <div className="content-header">
           <div className="header__brand flex-fill">
             <a href="#">
-              <img src={require('../../Assets/images/logo.png')} alt="logo" />
+              <img src={Logo} alt="logo" />
             </a>
           </div>
 
@@ -36,7 +37,9 @@ export default function Header() {
 
           <div className="header__user">
             <div className="d-flex">
-              <div className="pr-2">{/* <img src={User} alt="user" /> */}</div>
+              <div className="pr-2">
+                <img src={User} alt="user" />
+              </div>
               <div className="position-relative pr-2">
                 <span className="badge rounded-pill bg-primary">43</span>
                 <h5 className="mb-0">Waseem</h5>

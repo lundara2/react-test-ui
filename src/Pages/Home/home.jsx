@@ -2,12 +2,15 @@ import { useState, useEffect } from 'react';
 import React from 'react';
 
 // Images
-// import Activity from '../../Assets/images/activity.png';
-// import CloseHover from '../../Assets/images/close-hover.png';
-// import MasonryChildPrimary from '../../Assets/images/masonry-child-primary.png';
-// import MasonryParent from '../../Assets/images/masonry-parent.png';
-// import ArrowUp from '../../Assets/icon/img-arrow-up.png';
-// import AddHover from '../../Assets/images/add-hover.png';
+const Activity = 'https://lundara.com/react-test/Assets/images/activity.png';
+const CloseHover =
+  'https://lundara.com/react-test/Assets/images/close-hover.png';
+const MasonryChildPrimary =
+  'https://lundara.com/react-test/Assets/images/masonry-child-primary.png';
+const MasonryParent =
+  'https://lundara.com/react-test/Assets/images/masonry-parent.png';
+const ArrowUp = 'https://lundara.com/react-test/Assets/icon/img-arrow-up.png';
+const AddHover = 'https://lundara.com/react-test/Assets/images/add-hover.png';
 
 // Services
 import homeServices from './home.services';
@@ -72,9 +75,9 @@ export default function HomePage() {
 
                 {/* ====== Upload Post ====== */}
                 <div className="item-action">
-                  {/* <img src={MasonryChildPrimary} alt="" /> */}
+                  <img src={MasonryChildPrimary} alt="" />
                   <div className="content">
-                    {/* <img src={ArrowUp} alt="" className="img-upload" /> */}
+                    <img src={ArrowUp} alt="" className="img-upload" />
                     <div className="desc">
                       Upload
                       <div>Your Own Upload</div>
@@ -102,7 +105,7 @@ export default function HomePage() {
                 {peoples.map((item, index) => {
                   return (
                     <div className="item-post" key={item.id}>
-                      {/* <img src={MasonryParent} alt="" className="img-post" /> */}
+                      <img src={MasonryParent} alt="" className="img-post" />
                       <div className="view-user">
                         <div>
                           <h3 className="title">
@@ -125,9 +128,9 @@ export default function HomePage() {
 
                 {/* ====== Upload Post ====== */}
                 <div className="item-action">
-                  {/* <img src={MasonryChildPrimary} alt="" /> */}
+                  <img src={MasonryChildPrimary} alt="" />
                   <div className="content">
-                    {/* <img src={ArrowUp} alt="" className="img-upload" /> */}
+                    <img src={ArrowUp} alt="" className="img-upload" />
                     <div className="desc">
                       How
                       <div>Your Work</div>
@@ -180,9 +183,9 @@ export default function HomePage() {
 
                 {/* ====== Upload Post ====== */}
                 <div className="item-action">
-                  {/* <img src={MasonryChildPrimary} alt="" /> */}
+                  <img src={MasonryChildPrimary} alt="" />
                   <div className="content">
-                    {/* <img src={ArrowUp} alt="" className="img-upload" /> */}
+                    <img src={ArrowUp} alt="" className="img-upload" />
                     <div className="desc">
                       Share
                       <div>Your Document</div>
@@ -213,10 +216,7 @@ export default function HomePage() {
                 return (
                   <div className="post-activity" key={item.id}>
                     <div className="wrap-image">
-                      <img
-                        src="../../Assets/images/activity.png"
-                        alt="activity image"
-                      />
+                      <img src={Activity} alt="activity image" />
                     </div>
                     <div className="content flex-fill">
                       <h5 className="name">
@@ -232,7 +232,7 @@ export default function HomePage() {
                     </div>
                     <a href="#" className="post-link"></a>
                     <a href="#" className="post-close">
-                      {/* <img src={CloseHover} alt="" /> */}
+                      <img src={CloseHover} alt="" />
                     </a>
                   </div>
                 );
@@ -260,7 +260,7 @@ export default function HomePage() {
                         <span>{item.channel}</span>
 
                         <div href="#" className="add-channel">
-                          {/* <img src={AddHover} alt="" /> */}
+                          <img src={AddHover} alt="" />
                         </div>
                       </a>
                     </div>

@@ -31,16 +31,16 @@ export default function Header() {
 
           <div className="header__upload">
             <button className="btn btn-primary">
-              <i className="fas fa-arrow-up mr-2"></i>Upload
+              <i className="fas fa-arrow-up me-2"></i>Upload
             </button>
           </div>
 
           <div className="header__user">
             <div className="d-flex">
-              <div className="pr-2">
+              <div className="pe-2">
                 <img src={User} alt="user" />
               </div>
-              <div className="position-relative pr-2">
+              <div className="position-relative pe-2">
                 <span className="badge rounded-pill bg-primary">43</span>
                 <h5 className="mb-0">Waseem</h5>
                 <span>Arshad</span>
@@ -65,7 +65,7 @@ export default function Header() {
 
           <div className="upload-responsive">
             <button className="btn btn-primary">
-              <i className="fas fa-arrow-up mr-2"></i>Upload
+              <i className="fas fa-arrow-up me-2"></i>Upload
             </button>
           </div>
         </div>

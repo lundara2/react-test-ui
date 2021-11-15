@@ -208,7 +208,7 @@ export default function HomePage() {
                   <h3 className="title">Activity</h3>
                 </div>
                 <div>
-                  <a href="#">View timeline</a>/<a href="#">Filter Activites</a>
+                  <a href="#">View timeline</a> / <a href="#">Filter Activites</a>
                 </div>
               </div>
 
@@ -227,7 +227,7 @@ export default function HomePage() {
                         {item.description.substring(0, 37)}
                       </p>
                       <span>
-                        <i className="fa-comment fas pr-1"></i>4 months ago
+                        <i className="fa-comment fas pe-1"></i>4 months ago
                       </span>
                     </div>
                     <a href="#" className="post-link"></a>
